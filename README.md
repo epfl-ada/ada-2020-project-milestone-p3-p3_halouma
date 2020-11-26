@@ -2,7 +2,7 @@
 Comparing racial and gender disparities in police stops in blue and red states
 
 # Abstract
-We want to see if there is a correlation between the states' major political party (Republican or Democrat) and the race and sex of the drivers. We will use a new dataset: the electoral map of the 2016 Presidential election, indicating the winning color of the state (blue for Democrat and red for Republican). In these two types of states, we will extract the race and sex of stopped drivers, as well as whether a search was conducted and if contraband was found to determine the hit rate. We will analyze the hit rate based on the race and sex drivers independently, in at least one state per major political party. We would like to perform this analysis to determine whether one's political party can affect racial and gender bias.
+We want to see if there is a correlation between the states' major political party (Republican or Democrat) and the race and sex of the drivers stopped. We will use a new dataset: the electoral map of the 2016 Presidential election, indicating the winning color of the state (blue for Democrat and red for Republican). In these two types of states, we will extract the race and sex of stopped drivers, as well as whether a search was conducted and if contraband was found to determine the hit rate. We will analyze the hit rate based on the race and sex drivers independently, in at least one state per major political party. We would like to perform this analysis to determine whether one's political party can affect racial and gender bias.
 
 # Research Questions
 In our project we would like to find out whether there is a correlation between racial bias and political orientation, by comparing the hit rates in blue and red states. 
@@ -13,9 +13,9 @@ To summarize in research questions :
 - If there is, is it correlated to the major political party ?
 
 # Proposed dataset
-  1. The electoral map of the 2016 presidential election. We will pick at least one state per major political party based on the criteria "places that tend to       vote much more democratic" or "places that tend to vote much more republican". For now, we plan to choose Massachusetts, Vermont, Rhode Island and/or New Jersey for blue, and Texas, South Carolina and/or Montana for red. These states have been selected 
+  1. The electoral map of the 2016 presidential election (https://www.nytimes.com/elections/2016/results/president). We will pick at least one state per major political party based on the criteria "places that tend to vote much more democratic" or "places that tend to vote much more republican". For now, we plan to choose Massachusetts, Vermont, Rhode Island and/or New Jersey for blue, and Texas, South Carolina and/or Montana for red.
   2. The dataset from the article. We will extract the race, sex, search conducted and contraband found criteria with objective of observing hit rates. For each state, we will use the State Patrol data as this should be representative of an entire state's distribution of stops. This is important because we observed that even in highly republican states big cities tend to vote democratic.  
-We will obtain the data from the paper's website https://openpolicing.stanford.edu/data/. It allows us to identify states whose state patrols have recorded the necessary data and make sure we assess an equivalent number of police stops for blue vs red states. The data files are in the form of CSV and are therefore easily manipulated using Pandas. We can then merge the filtered data into two dataframes, one for blue states and one for red states, for example
+We will obtain the dataset of the article from the paper's website https://openpolicing.stanford.edu/data/. It allows us to identify states whose state patrols have recorded the necessary data and make sure we assess an equivalent number of police stops for blue vs red states. The data files are in the form of CSV and are therefore easily manipulated using Pandas. We can then merge the filtered data into two dataframes, one for blue states and one for red states, for example.
 # Methods
 Our approach will consist of: 
   - creating adapted datasets by including the gender of the driver and choosing blue and red states for which this information and the ones needed for the hit rates are available,
@@ -39,7 +39,6 @@ Referring to the timeline above:
   5. we finish the report and the video together.
 
 # Questions for TAs (optional)
-Add here any questions you have for us related to the proposed project.
   1. Is our analysis specific enough? 
   2. Should we just focus on just one of racial bias or gender bias and not both?
   3. Is our timeline realistic?
