@@ -44,7 +44,7 @@ Referring to the timeline above:
   4. 4th and 5th milestone: everyone worked on analysis by discussing together. The video is prepared together as well.
 
 # Our datastory
-Want to check out our website and learn about racial disparities in red and blue states ? Follow [this link] (https://mfroute.github.io/) and don't forget to tell us all about what you thought at [our email adress] (halouma@epfl.ch) !
+Want to check out our website and learn about racial disparities in red and blue states ? Follow [this link](https://mfroute.github.io/) and don't forget to tell us all about what you thought at [our email adress](halouma@epfl.ch) !
 
 # Our notebook
-Our full approach with our code and the details about our parameters, statistical methods et cetera is available [here] (https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_halouma/blob/main/extension.ipynb).
+Our full approach with our code and the details about our parameters, statistical methods et cetera is available [here](https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_halouma/blob/main/extension.ipynb).
